@@ -1,1 +1,6 @@
+*.iml
+*.txt
+-printmapping mapping.txt
+-printseeds seeds.txt
+-printusage unused.txt（dump.txt）
 /build
