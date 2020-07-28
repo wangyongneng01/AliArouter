@@ -27,17 +27,4 @@ public abstract class BaseActivity<B extends ViewDataBinding> extends AppCompatA
 
     protected abstract int getLayoutId();
 
-    //    open var mViewBinding:B? = null
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        mViewBinding = DataBindingUtil.setContentView(this,getLayoutId())
-//        initView()
-//        initData()
-//    }
-//
-//    abstract fun initData()
-//
-//    abstract fun initView()
-//
-//    abstract fun getLayoutId():Int
 }
